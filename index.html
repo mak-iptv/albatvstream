@@ -352,6 +352,120 @@
                 <p class="version">Version 3.0.0 | <span id="online-status"><i class="fas fa-circle"></i> Online</span></p>
             </div>
         </footer>
+            <!-- M3U to JSON Converter -->
+    <section class="converter-section">
+        <div class="section-header">
+            <h2><i class="fas fa-exchange-alt"></i> M3U to JSON Converter</h2>
+            <p>Konvertoni playlist M3U në JSON për SUPER WEB IPTV</p>
+        </div>
+        
+        <div class="converter-container">
+            <div class="converter-box">
+                <div class="converter-input">
+                    <div class="file-upload-area" id="file-upload-area">
+                        <i class="fas fa-file-upload"></i>
+                        <h3>Zgjidhni skedarin M3U</h3>
+                        <p>Ose lëshoni skedarin këtu</p>
+                        <input type="file" id="m3u-file" accept=".m3u,.m3u8" style="display: none;">
+                        <button class="btn-action" onclick="document.getElementById('m3u-file').click()">
+                            <i class="fas fa-folder-open"></i> Zgjidhni Skedarin
+                        </button>
+                        <p class="file-info" id="file-info">Asnjë skedar i zgjedhur</p>
+                    </div>
+                    
+                    <div class="converter-options">
+                        <h4><i class="fas fa-cog"></i> Opsionet e Konvertimit</h4>
+                        <div class="option-group">
+                            <label>
+                                <input type="checkbox" id="auto-detect-country" checked>
+                                <span>Auto-detect vendin</span>
+                            </label>
+                            <label>
+                                <input type="checkbox" id="auto-detect-quality" checked>
+                                <span>Auto-detect cilësinë</span>
+                            </label>
+                            <label>
+                                <input type="checkbox" id="add-prefixes" checked>
+                                <span>Shto prefikse vendi (┃AL┃)</span>
+                            </label>
+                            <label>
+                                <input type="checkbox" id="clean-names" checked>
+                                <span>Pastro emrat e kanaleve</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="converter-output">
+                    <div class="output-header">
+                        <h4><i class="fas fa-code"></i> Output JSON</h4>
+                        <div class="output-actions">
+                            <button class="btn-action-small" onclick="copyJSON()" title="Kopjo JSON">
+                                <i class="fas fa-copy"></i>
+                            </button>
+                            <button class="btn-action-small" onclick="downloadJSON()" title="Shkarko JSON">
+                                <i class="fas fa-download"></i>
+                            </button>
+                            <button class="btn-action-small" onclick="clearConverter()" title="Pastro">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="output-preview">
+                        <pre id="json-output">{
+  "version": "3.0.0",
+  "last_updated": "",
+  "total_channels": 0,
+  "channels": []
+}</pre>
+                    </div>
+                    
+                    <div class="converter-stats" id="converter-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-tv"></i>
+                            <span>Kanale: <strong>0</strong></span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-tags"></i>
+                            <span>Kategori: <strong>0</strong></span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-globe"></i>
+                            <span>Vende: <strong>0</strong></span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-signal"></i>
+                            <span>Cilësi: <strong>0</strong></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="converter-actions">
+                <button class="btn-action" onclick="convertM3U()" id="convert-btn">
+                    <i class="fas fa-sync-alt"></i> Konverto M3U në JSON
+                </button>
+                <button class="btn-action" onclick="loadSampleM3U()">
+                    <i class="fas fa-vial"></i> Ngarko Shembull M3U
+                </button>
+                <button class="btn-action" onclick="testConverter()">
+                    <i class="fas fa-check"></i> Testo Konvertimin
+                </button>
+            </div>
+            
+            <div class="converter-help">
+                <h4><i class="fas fa-question-circle"></i> Udhëzime</h4>
+                <ol>
+                    <li>Zgjidhni skedarin M3U ose M3U8</li>
+                    <li>Konfiguroni opsionet e konvertimit</li>
+                    <li>Klikoni "Konverto M3U në JSON"</li>
+                    <li>Kopjoni ose shkarkoni JSON output</li>
+                    <li>Zëvendësoni <code>channels.json</code> me të dhënat e reja</li>
+                </ol>
+                <p><strong>Formati i pritur:</strong> #EXTINF:-1 tvg-id="id" tvg-name="Emri" tvg-logo="url" group-title="Kategoria",Emri i Kanali</p>
+            </div>
+        </div>
+    </section>
     </div>
 
     <!-- Modal for Premium -->
