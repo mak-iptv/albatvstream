@@ -16,7 +16,7 @@
   "channels": [
   {
     "id": 1,
-    "name": "┃AL┃ BIG BROTHER KOSOVA VIP 1 HD",
+    "name": "BIG BROTHER KOSOVA VIP 1 HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=1427113&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ARGENTINA/BIG BROTHER VIP ALBANIA/BIG BROTHER VIP ALBANIA.png",
     "category": "┃AL┃ ALBANIA",
@@ -26,11 +26,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 2,
-    "name": "┃AL┃ BIG BROTHER KOSOVA VIP 2 HD",
+    "name": "BIG BROTHER KOSOVA VIP 2 HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=1427114&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ARGENTINA/BIG BROTHER VIP ALBANIA/BIG BROTHER VIP ALBANIA.png",
     "category": "┃AL┃ ALBANIA",
@@ -40,11 +41,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 3,
-    "name": "┃AL┃ BIG BROTHER ALBANIA VIP 1 HD",
+    "name": "BIG BROTHER ALBANIA VIP 1 HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=1492762&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ARGENTINA/BIG BROTHER VIP ALBANIA/BIG BROTHER VIP ALBANIA.png",
     "category": "┃AL┃ ALBANIA",
@@ -54,11 +56,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 4,
-    "name": "┃AL┃ BIG BROTHER ALBANIA VIP 2 HD",
+    "name": "BIG BROTHER ALBANIA VIP 2 HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=1492763&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ARGENTINA/BIG BROTHER VIP ALBANIA/BIG BROTHER VIP ALBANIA.png",
     "category": "┃AL┃ ALBANIA",
@@ -68,11 +71,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 5,
-    "name": "┃AL┃ TOP CHANNEL 4K",
+    "name": "TOP CHANNEL 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=3&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TOPCHANNEL.png",
     "category": "┃AL┃ ALBANIA",
@@ -82,11 +86,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 6,
-    "name": "┃AL┃ TOP CHANNEL HD",
+    "name": "TOP CHANNEL HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=5&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TOPCHANNEL.png",
     "category": "┃AL┃ ALBANIA",
@@ -96,11 +101,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 7,
-    "name": "┃AL┃ VIZION PLUS 4K",
+    "name": "VIZION PLUS 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=6&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/VIZIONPLUS.png",
     "category": "┃AL┃ ALBANIA",
@@ -110,11 +116,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 8,
-    "name": "┃AL┃ VIZION PLUS HD",
+    "name": "VIZION PLUS HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=8&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/VIZIONPLUS.png",
     "category": "┃AL┃ ALBANIA",
@@ -124,11 +131,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 9,
-    "name": "┃AL┃ KLAN TV 4K",
+    "name": "KLAN TV 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=9&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TVKLAN.png",
     "category": "┃AL┃ ALBANIA",
@@ -138,11 +146,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 10,
-    "name": "┃AL┃ KLAN TV HD",
+    "name": "KLAN TV HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=11&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TVKLAN.png",
     "category": "┃AL┃ ALBANIA",
@@ -152,11 +161,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 11,
-    "name": "┃AL┃ KLAN KOSOVA 4K",
+    "name": "KLAN KOSOVA 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=12&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/KLANKOSOVA.png",
     "category": "┃AL┃ ALBANIA",
@@ -166,11 +176,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 12,
-    "name": "┃AL┃ KLAN KOSOVA HD",
+    "name": "KLAN KOSOVA HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=14&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/KLANKOSOVA.png",
     "category": "┃AL┃ ALBANIA",
@@ -180,11 +191,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 13,
-    "name": "┃AL┃ KTV KOHAVISION 4K",
+    "name": "KTV KOHAVISION 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=15&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/KTVKOHAVISION.png",
     "category": "┃AL┃ ALBANIA",
@@ -194,11 +206,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 14,
-    "name": "┃AL┃ KTV KOHAVISION HD",
+    "name": "KTV KOHAVISION HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=17&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/KTVKOHAVISION.png",
     "category": "┃AL┃ ALBANIA",
@@ -208,11 +221,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 15,
-    "name": "┃AL┃ DUKAGJINI 4K",
+    "name": "DUKAGJINI 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=18&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/Dukagjini_RTV_Logo.png",
     "category": "┃AL┃ ALBANIA",
@@ -222,11 +236,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 16,
-    "name": "┃AL┃ DUKAGJINI HD",
+    "name": "DUKAGJINI HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=20&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/Dukagjini_RTV_Logo.png",
     "category": "┃AL┃ ALBANIA",
@@ -236,11 +251,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 17,
-    "name": "┃AL┃ RTV21 4K",
+    "name": "RTV21 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=21&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/RTV21.png",
     "category": "┃AL┃ ALBANIA",
@@ -250,11 +266,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 18,
-    "name": "┃AL┃ RTV21 HD",
+    "name": "RTV21 HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=23&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/RTV21.png",
     "category": "┃AL┃ ALBANIA",
@@ -264,11 +281,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 19,
-    "name": "┃AL┃ KANAL 10 4K",
+    "name": "KANAL 10 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=24&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/KANAL10.png",
     "category": "┃AL┃ ALBANIA",
@@ -278,11 +296,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 20,
-    "name": "┃AL┃ KANAL 10 HD",
+    "name": "KANAL 10 HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=25&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/KANAL10.png",
     "category": "┃AL┃ ALBANIA",
@@ -292,11 +311,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 21,
-    "name": "┃AL┃ ATV 4K",
+    "name": "ATV 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=36&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/ATV.png",
     "category": "┃AL┃ ALBANIA",
@@ -306,11 +326,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 22,
-    "name": "┃AL┃ ATV HD",
+    "name": "ATV HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=37&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/ATV.png",
     "category": "┃AL┃ ALBANIA",
@@ -320,11 +341,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 23,
-    "name": "┃AL┃ RTK 1 4K",
+    "name": "RTK 1 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=26&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX/ALRTK.png",
     "category": "┃AL┃ ALBANIA",
@@ -334,11 +356,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 24,
-    "name": "┃AL┃ RTK 1 HD",
+    "name": "RTK 1 HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=27&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX/ALRTK.png",
     "category": "┃AL┃ ALBANIA",
@@ -348,11 +371,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 25,
-    "name": "┃AL┃ RTK 2 4K",
+    "name": "RTK 2 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=28&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX/ALRTK.png",
     "category": "┃AL┃ ALBANIA",
@@ -362,11 +386,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 26,
-    "name": "┃AL┃ RTK 2 HD",
+    "name": "RTK 2 HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=29&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX/ALRTK.png",
     "category": "┃AL┃ ALBANIA",
@@ -376,11 +401,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 27,
-    "name": "┃AL┃ RTK 3 4K",
+    "name": "RTK 3 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=30&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX/ALRTK.png",
     "category": "┃AL┃ ALBANIA",
@@ -390,11 +416,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 28,
-    "name": "┃AL┃ RTK 3 HD",
+    "name": "RTK 3 HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=31&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX/ALRTK.png",
     "category": "┃AL┃ ALBANIA",
@@ -404,11 +431,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 29,
-    "name": "┃AL┃ RTK 4 4K",
+    "name": "RTK 4 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=32&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX/ALRTK.png",
     "category": "┃AL┃ ALBANIA",
@@ -418,11 +446,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 30,
-    "name": "┃AL┃ RTK 4 HD",
+    "name": "RTK 4 HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=33&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX/ALRTK.png",
     "category": "┃AL┃ ALBANIA",
@@ -432,11 +461,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 31,
-    "name": "┃AL┃ RTSH 1 4K",
+    "name": "RTSH 1 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=65&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/RTSH.png",
     "category": "┃AL┃ ALBANIA",
@@ -446,11 +476,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 32,
-    "name": "┃AL┃ RTSH 1 HD",
+    "name": "RTSH 1 HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=66&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/RTSH.png",
     "category": "┃AL┃ ALBANIA",
@@ -460,11 +491,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 33,
-    "name": "┃AL┃ RTSH 2 HD",
+    "name": "RTSH 2 HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=67&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/RTSH.png",
     "category": "┃AL┃ ALBANIA",
@@ -474,11 +506,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 34,
-    "name": "┃AL┃ RTSH 3",
+    "name": "RTSH 3",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=68&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/RTSH.png",
     "category": "┃AL┃ ALBANIA",
@@ -488,11 +521,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 35,
-    "name": "┃AL┃ RTSH 24 HD",
+    "name": "RTSH 24 HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=69&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/RTSH24.png",
     "category": "┃AL┃ ALBANIA",
@@ -502,11 +536,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 36,
-    "name": "┃AL┃ RTV21 PLUS HD",
+    "name": "RTV21 PLUS HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=63&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/RTV21.png",
     "category": "┃AL┃ ALBANIA",
@@ -516,11 +551,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 37,
-    "name": "┃AL┃ RTV21 MIX HD",
+    "name": "RTV21 MIX HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=64&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/RTV21.png",
     "category": "┃AL┃ ALBANIA",
@@ -530,11 +566,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 38,
-    "name": "┃AL┃ RTV21 POPULLORE",
+    "name": "RTV21 POPULLORE",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=62&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/RTV21.png",
     "category": "┃AL┃ ALBANIA",
@@ -544,11 +581,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 39,
-    "name": "┃AL┃ FIRST CHANNEL 4K",
+    "name": "FIRST CHANNEL 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=34&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/FIRSTCHANNEL.png",
     "category": "┃AL┃ ALBANIA",
@@ -558,11 +596,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 40,
-    "name": "┃AL┃ FIRST CHANNEL HD",
+    "name": "FIRST CHANNEL HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=35&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/FIRSTCHANNEL.png",
     "category": "┃AL┃ ALBANIA",
@@ -572,11 +611,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 41,
-    "name": "┃AL┃ SHENJA 4K",
+    "name": "SHENJA 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=55&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/SHENJATV.png",
     "category": "┃AL┃ ALBANIA",
@@ -586,11 +626,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 42,
-    "name": "┃AL┃ SHENJA HD",
+    "name": "SHENJA HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=56&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/SHENJATV.png",
     "category": "┃AL┃ ALBANIA",
@@ -600,11 +641,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 43,
-    "name": "┃AL┃ ERA TV",
+    "name": "ERA TV",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=58&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/ERATV.png",
     "category": "┃AL┃ ALBANIA",
@@ -614,11 +656,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 44,
-    "name": "┃AL┃ TV KOHA",
+    "name": "TV KOHA",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=61&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TVKOHA.png",
     "category": "┃AL┃ ALBANIA",
@@ -628,11 +671,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 45,
-    "name": "┃AL┃ TV GLOBI",
+    "name": "TV GLOBI",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=59&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TVGLOBI.png",
     "category": "┃AL┃ ALBANIA",
@@ -642,11 +686,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 46,
-    "name": "┃AL┃ TV2 GOSTIVAR HD",
+    "name": "TV2 GOSTIVAR HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=60&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TV2GOSTIVAR.png",
     "category": "┃AL┃ ALBANIA",
@@ -656,11 +701,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 47,
-    "name": "☰☰☰☰ ┃AL┃ PAKO SERIALE ☰☰☰☰",
+    "name": "☰☰☰☰  PAKO SERIALE ☰☰☰☰",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=57&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX2/ALBFLAG.png",
     "category": "┃AL┃ ALBANIA",
@@ -670,11 +716,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 48,
-    "name": "┃AL┃ ALSAT M 4K",
+    "name": "ALSAT M 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=38&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/ALSATTV.png",
     "category": "┃AL┃ ALBANIA",
@@ -684,11 +731,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 49,
-    "name": "┃AL┃ ALSAT M HD",
+    "name": "ALSAT M HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=39&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/ALSATTV.png",
     "category": "┃AL┃ ALBANIA",
@@ -698,11 +746,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 50,
-    "name": "┃AL┃ ALSAT M",
+    "name": "ALSAT M",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=40&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/ALSATTV.png",
     "category": "┃AL┃ ALBANIA",
@@ -712,11 +761,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 51,
-    "name": "┃AL┃ DIZI TDC 4K",
+    "name": "DIZI TDC 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=41&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/DIZITDC.png",
     "category": "┃AL┃ ALBANIA",
@@ -726,11 +776,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 52,
-    "name": "┃AL┃ DIZI TDC HD",
+    "name": "DIZI TDC HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=42&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/DIZITDC.png",
     "category": "┃AL┃ ALBANIA",
@@ -740,11 +791,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 53,
-    "name": "┃AL┃ KANAL D DRAMA 4K",
+    "name": "KANAL D DRAMA 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=43&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/KANALDDRAMA.png",
     "category": "┃AL┃ ALBANIA",
@@ -754,11 +806,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 54,
-    "name": "┃AL┃ KANAL D DRAMA HD",
+    "name": "KANAL D DRAMA HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=44&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/KANALDDRAMA.png",
     "category": "┃AL┃ ALBANIA",
@@ -768,11 +821,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 55,
-    "name": "┃AL┃ TRING TURKISH STORIES 4K",
+    "name": "TRING TURKISH STORIES 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=676116&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TRING.png",
     "category": "┃AL┃ ALBANIA",
@@ -782,11 +836,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 56,
-    "name": "┃AL┃ RTV21 MACEDONIA 4K",
+    "name": "RTV21 MACEDONIA 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=45&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/RTV21.png",
     "category": "┃AL┃ ALBANIA",
@@ -796,11 +851,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 57,
-    "name": "┃AL┃ RTV21 MACEDONIA HD",
+    "name": "RTV21 MACEDONIA HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=46&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/RTV21.png",
     "category": "┃AL┃ ALBANIA",
@@ -810,11 +866,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 58,
-    "name": "┃AL┃ KLAN MACEDONIA 4K",
+    "name": "KLAN MACEDONIA 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=47&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/KLAN%20MACEDONIA.png",
     "category": "┃AL┃ ALBANIA",
@@ -824,11 +881,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 59,
-    "name": "┃AL┃ KLAN MACEDONIA HD",
+    "name": "KLAN MACEDONIA HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=48&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/KLAN%20MACEDONIA.png",
     "category": "┃AL┃ ALBANIA",
@@ -838,11 +896,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 60,
-    "name": "┃AL┃ KLAN PLUS 4K",
+    "name": "KLAN PLUS 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=49&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/KLANPLUS.png",
     "category": "┃AL┃ ALBANIA",
@@ -852,11 +911,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 61,
-    "name": "┃AL┃ KLAN PLUS HD",
+    "name": "KLAN PLUS HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=50&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/KLANPLUS.png",
     "category": "┃AL┃ ALBANIA",
@@ -866,11 +926,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 62,
-    "name": "┃AL┃ TRING SERIES 4K",
+    "name": "TRING SERIES 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=51&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TRING.png",
     "category": "┃AL┃ ALBANIA",
@@ -880,11 +941,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 63,
-    "name": "┃AL┃ TRING SERIES HD",
+    "name": "TRING SERIES HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=52&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TRING.png",
     "category": "┃AL┃ ALBANIA",
@@ -894,11 +956,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 64,
-    "name": "┃AL┃ TRING 3+ HD",
+    "name": "TRING 3+ HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=53&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TRING.png",
     "category": "┃AL┃ ALBANIA",
@@ -908,11 +971,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 65,
-    "name": "┃AL┃ TRING 3+",
+    "name": "TRING 3+",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=54&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TRING.png",
     "category": "┃AL┃ ALBANIA",
@@ -922,11 +986,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 66,
-    "name": "┃AL┃ TËVË 1 HD",
+    "name": "TËVË 1 HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=384668&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TEVE1.png",
     "category": "┃AL┃ ALBANIA",
@@ -936,11 +1001,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 67,
-    "name": "☰☰☰☰ ┃AL┃ PAKO LAJME ☰☰☰☰",
+    "name": "☰☰☰☰  PAKO LAJME ☰☰☰☰",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=70&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX2/ALBFLAG.png",
     "category": "┃AL┃ ALBANIA",
@@ -950,11 +1016,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 68,
-    "name": "┃AL┃ T7 4K",
+    "name": "T7 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=71&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/T7.png",
     "category": "┃AL┃ ALBANIA",
@@ -964,11 +1031,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 69,
-    "name": "┃AL┃ T7 HD",
+    "name": "T7 HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=73&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/T7.png",
     "category": "┃AL┃ ALBANIA",
@@ -978,11 +1046,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 70,
-    "name": "┃AL┃ ARTA NEWS 4K",
+    "name": "ARTA NEWS 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=74&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/ARTATV.png",
     "category": "┃AL┃ ALBANIA",
@@ -992,11 +1061,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 71,
-    "name": "┃AL┃ ARTA NEWS HD",
+    "name": "ARTA NEWS HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=75&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/ARTATV.png",
     "category": "┃AL┃ ALBANIA",
@@ -1006,11 +1076,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 72,
-    "name": "┃AL┃ KANALI 7",
+    "name": "KANALI 7",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=76&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/KANALI7.png",
     "category": "┃AL┃ ALBANIA",
@@ -1020,11 +1091,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 73,
-    "name": "┃AL┃ ABC NEWS HD",
+    "name": "ABC NEWS HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=662922&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/USA/ABC-News-Logo-2007.png",
     "category": "┃AL┃ ALBANIA",
@@ -1034,11 +1106,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 74,
-    "name": "┃AL┃ ORA NEWS",
+    "name": "ORA NEWS",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=78&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/Ora-news.png",
     "category": "┃AL┃ ALBANIA",
@@ -1048,11 +1121,14 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": [
+      "news"
+    ]
   },
   {
     "id": 75,
-    "name": "┃AL┃ KLAN NEWS",
+    "name": "KLAN NEWS",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=79&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TVKLAN.png",
     "category": "┃AL┃ ALBANIA",
@@ -1062,11 +1138,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 76,
-    "name": "┃AL┃ TOP NEWS",
+    "name": "TOP NEWS",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=82&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TOPNEWS.png",
     "category": "┃AL┃ ALBANIA",
@@ -1076,11 +1153,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 77,
-    "name": "┃AL┃ FAX NEWS",
+    "name": "FAX NEWS",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=81&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/FOXNEWS.png",
     "category": "┃AL┃ ALBANIA",
@@ -1090,11 +1168,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 78,
-    "name": "┃AL┃ NEWS 24",
+    "name": "NEWS 24",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=83&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/ALNEWS24.png",
     "category": "┃AL┃ ALBANIA",
@@ -1104,11 +1183,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 79,
-    "name": "┃AL┃ RTSH GJIROKASTRA",
+    "name": "RTSH GJIROKASTRA",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=753577&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/RTSH.png",
     "category": "┃AL┃ ALBANIA",
@@ -1118,11 +1198,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 80,
-    "name": "┃AL┃ EURONEWS",
+    "name": "EURONEWS",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=85&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/EURONEWS.png",
     "category": "┃AL┃ ALBANIA",
@@ -1132,11 +1213,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 81,
-    "name": "┃AL┃ A2 CNN",
+    "name": "A2 CNN",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=80&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/A2CNN.png",
     "category": "┃AL┃ ALBANIA",
@@ -1146,11 +1228,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 82,
-    "name": "┃AL┃ SCAN TV",
+    "name": "SCAN TV",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=86&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/SCANTV.png",
     "category": "┃AL┃ ALBANIA",
@@ -1160,11 +1243,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 83,
-    "name": "┃AL┃ REPORT TV",
+    "name": "REPORT TV",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=84&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/REPORTTV.png",
     "category": "┃AL┃ ALBANIA",
@@ -1174,11 +1258,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 84,
-    "name": "┃AL┃ SYRI TV",
+    "name": "SYRI TV",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=254&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/SYRITV.png",
     "category": "┃AL┃ ALBANIA",
@@ -1188,11 +1273,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 85,
-    "name": "┃AL┃ MRT 2",
+    "name": "MRT 2",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=87&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/Logo_of_MRT_2_(2012-).svg.png",
     "category": "┃AL┃ ALBANIA",
@@ -1202,11 +1288,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 86,
-    "name": "☰☰☰☰ ┃AL┃ PAKO DIGITALB ☰☰☰☰",
+    "name": "☰☰☰☰  PAKO DIGITALB ☰☰☰☰",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=88&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX2/ALBFLAG.png",
     "category": "┃AL┃ ALBANIA",
@@ -1216,11 +1303,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 87,
-    "name": "┃AL┃ KANALI 20",
+    "name": "KANALI 20",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=838766&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/KANALI 20.png",
     "category": "┃AL┃ ALBANIA",
@@ -1230,11 +1318,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 88,
-    "name": "┃AL┃ FILM GOLD 4K",
+    "name": "FILM GOLD 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=89&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/FILMGOLD.png",
     "category": "┃AL┃ ALBANIA",
@@ -1244,11 +1333,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 89,
-    "name": "┃AL┃ FILM GOLD HD",
+    "name": "FILM GOLD HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=212425&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/FILMGOLD.png",
     "category": "┃AL┃ ALBANIA",
@@ -1258,11 +1348,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 90,
-    "name": "┃AL┃ FILM MAX 4K",
+    "name": "FILM MAX 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=90&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/ALFILMMAX.png",
     "category": "┃AL┃ ALBANIA",
@@ -1272,11 +1363,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 91,
-    "name": "┃AL┃ FILM MAX HD",
+    "name": "FILM MAX HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=212426&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/ALFILMMAX.png",
     "category": "┃AL┃ ALBANIA",
@@ -1286,11 +1378,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 92,
-    "name": "┃AL┃ FILM HITS 4K",
+    "name": "FILM HITS 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=91&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/FILMHITS.png",
     "category": "┃AL┃ ALBANIA",
@@ -1300,11 +1393,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 93,
-    "name": "┃AL┃ FILM HITS HD",
+    "name": "FILM HITS HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=212427&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/FILMHITS.png",
     "category": "┃AL┃ ALBANIA",
@@ -1314,11 +1408,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 94,
-    "name": "┃AL┃ FILM AKSION 4K",
+    "name": "FILM AKSION 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=92&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/Film_Aksion_AL_logo%20(1).png",
     "category": "┃AL┃ ALBANIA",
@@ -1328,11 +1423,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 95,
-    "name": "┃AL┃ FILM AKSION HD",
+    "name": "FILM AKSION HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=212428&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/Film_Aksion_AL_logo%20(1).png",
     "category": "┃AL┃ ALBANIA",
@@ -1342,11 +1438,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 96,
-    "name": "┃AL┃ FILM FAMILY 4K",
+    "name": "FILM FAMILY 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=96&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/ALFILMFAMILY.png",
     "category": "┃AL┃ ALBANIA",
@@ -1356,11 +1453,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 97,
-    "name": "┃AL┃ FILM FAMILY HD",
+    "name": "FILM FAMILY HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=212429&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/ALFILMFAMILY.png",
     "category": "┃AL┃ ALBANIA",
@@ -1370,11 +1468,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 98,
-    "name": "┃AL┃ FILM KOMEDI 4K",
+    "name": "FILM KOMEDI 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=94&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/Film_Komedi_AL_logo.png",
     "category": "┃AL┃ ALBANIA",
@@ -1384,11 +1483,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 99,
-    "name": "┃AL┃ FILM KOMEDI HD",
+    "name": "FILM KOMEDI HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=212430&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/Film_Komedi_AL_logo.png",
     "category": "┃AL┃ ALBANIA",
@@ -1398,11 +1498,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 100,
-    "name": "┃AL┃ FILM THRILLER 4K",
+    "name": "FILM THRILLER 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=93&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/Film_Thriller_AL_logo.png",
     "category": "┃AL┃ ALBANIA",
@@ -1412,11 +1513,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 101,
-    "name": "┃AL┃ FILM THRILLER HD",
+    "name": "FILM THRILLER HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=212431&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/Film_Thriller_AL_logo.png",
     "category": "┃AL┃ ALBANIA",
@@ -1426,11 +1528,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 102,
-    "name": "┃AL┃ FILM DRAMË 4K",
+    "name": "FILM DRAMË 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=95&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/ALFILMDRAME.png",
     "category": "┃AL┃ ALBANIA",
@@ -1440,11 +1543,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 103,
-    "name": "┃AL┃ FILM DRAMË HD",
+    "name": "FILM DRAMË HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=212440&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/ALFILMDRAME.png",
     "category": "┃AL┃ ALBANIA",
@@ -1454,11 +1558,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 104,
-    "name": "┃AL┃ FILM AUTOR 4K",
+    "name": "FILM AUTOR 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=97&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/ALFILMAUTOR.png",
     "category": "┃AL┃ ALBANIA",
@@ -1468,11 +1573,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 105,
-    "name": "┃AL┃ FILM AUTOR HD",
+    "name": "FILM AUTOR HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=212449&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/ALFILMAUTOR.png",
     "category": "┃AL┃ ALBANIA",
@@ -1482,11 +1588,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 106,
-    "name": "┃AL┃ FILM STINET 4K",
+    "name": "FILM STINET 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=98&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/Stinet_AL_logo.png",
     "category": "┃AL┃ ALBANIA",
@@ -1496,11 +1603,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 107,
-    "name": "┃AL┃ FILM STINET HD",
+    "name": "FILM STINET HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=212450&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/Stinet_AL_logo.png",
     "category": "┃AL┃ ALBANIA",
@@ -1510,11 +1618,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 108,
-    "name": "┃AL┃ FILM T 4K",
+    "name": "FILM T 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=99&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX/ALFILMTV.png",
     "category": "┃AL┃ ALBANIA",
@@ -1524,11 +1633,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 109,
-    "name": "┃AL┃ FILM T HD",
+    "name": "FILM T HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=212451&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX/ALFILMTV.png",
     "category": "┃AL┃ ALBANIA",
@@ -1538,11 +1648,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 110,
-    "name": "┃AL┃ EUROFILM 4K",
+    "name": "EUROFILM 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=100&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/DigitAlb_EuroFilm_AL_logo.png",
     "category": "┃AL┃ ALBANIA",
@@ -1552,11 +1663,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 111,
-    "name": "┃AL┃ EUROFILM HD",
+    "name": "EUROFILM HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=212452&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/DigitAlb_EuroFilm_AL_logo.png",
     "category": "┃AL┃ ALBANIA",
@@ -1566,11 +1678,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 112,
-    "name": "☰☰☰☰ ┃AL┃ PAKO TRING ☰☰☰☰",
+    "name": "☰☰☰☰  PAKO TRING ☰☰☰☰",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=105&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX2/ALBFLAG.png",
     "category": "┃AL┃ ALBANIA",
@@ -1580,11 +1693,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 113,
-    "name": "┃AL┃ TRING ACTION 4K",
+    "name": "TRING ACTION 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=106&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TRING.png",
     "category": "┃AL┃ ALBANIA",
@@ -1594,11 +1708,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 114,
-    "name": "┃AL┃ TRING ACTION HD",
+    "name": "TRING ACTION HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=212453&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TRING.png",
     "category": "┃AL┃ ALBANIA",
@@ -1608,11 +1723,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 115,
-    "name": "┃AL┃ TRING SUPER 4K",
+    "name": "TRING SUPER 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=107&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TRING.png",
     "category": "┃AL┃ ALBANIA",
@@ -1622,11 +1738,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 116,
-    "name": "┃AL┃ TRING SUPER HD",
+    "name": "TRING SUPER HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=212454&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TRING.png",
     "category": "┃AL┃ ALBANIA",
@@ -1636,11 +1753,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 117,
-    "name": "┃AL┃ TRING COMEDY 4K",
+    "name": "TRING COMEDY 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=108&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TRING.png",
     "category": "┃AL┃ ALBANIA",
@@ -1650,11 +1768,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 118,
-    "name": "┃AL┃ TRING COMEDY HD",
+    "name": "TRING COMEDY HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=212455&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TRING.png",
     "category": "┃AL┃ ALBANIA",
@@ -1664,11 +1783,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 119,
-    "name": "┃AL┃ TRING FAMILY HD",
+    "name": "TRING FAMILY HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=231166&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TRING.png",
     "category": "┃AL┃ ALBANIA",
@@ -1678,11 +1798,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 120,
-    "name": "┃AL┃ TRING FANTASY 4K",
+    "name": "TRING FANTASY 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=109&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TRING.png",
     "category": "┃AL┃ ALBANIA",
@@ -1692,11 +1813,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 121,
-    "name": "┃AL┃ TRING FANTASY HD",
+    "name": "TRING FANTASY HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=212456&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TRING.png",
     "category": "┃AL┃ ALBANIA",
@@ -1706,11 +1828,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 122,
-    "name": "┃AL┃ TRING NOVELAS 4K",
+    "name": "TRING NOVELAS 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=15345&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TRING.png",
     "category": "┃AL┃ ALBANIA",
@@ -1720,11 +1843,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 123,
-    "name": "┃AL┃ TRING NOVELAS HD",
+    "name": "TRING NOVELAS HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=212457&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TRING.png",
     "category": "┃AL┃ ALBANIA",
@@ -1734,11 +1858,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 124,
-    "name": "┃AL┃ TRING LIFE 4K",
+    "name": "TRING LIFE 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=110&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TRING.png",
     "category": "┃AL┃ ALBANIA",
@@ -1748,11 +1873,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 125,
-    "name": "┃AL┃ TRING LIFE HD",
+    "name": "TRING LIFE HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=212458&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TRING.png",
     "category": "┃AL┃ ALBANIA",
@@ -1762,11 +1888,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 126,
-    "name": "┃AL┃ TRING SMILE 4k",
+    "name": "TRING SMILE 4k",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=111&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TRING.png",
     "category": "┃AL┃ ALBANIA",
@@ -1776,11 +1903,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 127,
-    "name": "┃AL┃ TRING SMILE HD",
+    "name": "TRING SMILE HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=212459&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TRING.png",
     "category": "┃AL┃ ALBANIA",
@@ -1790,11 +1918,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 128,
-    "name": "┃AL┃ TRING SHQIP 4K",
+    "name": "TRING SHQIP 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=112&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TRING.png",
     "category": "┃AL┃ ALBANIA",
@@ -1804,11 +1933,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 129,
-    "name": "┃AL┃ TRING SHQIP HD",
+    "name": "TRING SHQIP HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=212460&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TRING.png",
     "category": "┃AL┃ ALBANIA",
@@ -1818,11 +1948,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 130,
-    "name": "┃AL┃ TRING COLLECTION 4K",
+    "name": "TRING COLLECTION 4K",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=212462&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TRING.png",
     "category": "┃AL┃ ALBANIA",
@@ -1832,11 +1963,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 131,
-    "name": "┃AL┃ TRING COLLECTION HD",
+    "name": "TRING COLLECTION HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=212463&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TRING.png",
     "category": "┃AL┃ ALBANIA",
@@ -1846,11 +1978,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 132,
-    "name": "┃AL┃ TRING CLASSIC HD",
+    "name": "TRING CLASSIC HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=212461&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TRING.png",
     "category": "┃AL┃ ALBANIA",
@@ -1860,11 +1993,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 133,
-    "name": "┃AL┃ TRING ORIGINAL",
+    "name": "TRING ORIGINAL",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=384916&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TRING.png",
     "category": "┃AL┃ ALBANIA",
@@ -1874,11 +2008,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 134,
-    "name": "┃AL┃ FOX CHANNEL",
+    "name": "FOX CHANNEL",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=268&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/FoxCHANNEL.png",
     "category": "┃AL┃ ALBANIA",
@@ -1888,11 +2023,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 135,
-    "name": "┃AL┃ FOX MOVIES HD",
+    "name": "FOX MOVIES HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=212474&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/FoxCHANNEL.png",
     "category": "┃AL┃ ALBANIA",
@@ -1902,11 +2038,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 136,
-    "name": "┃AL┃ FOX CRIME HD",
+    "name": "FOX CRIME HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=212475&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/FoxCHANNEL.png",
     "category": "┃AL┃ ALBANIA",
@@ -1916,11 +2053,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 137,
-    "name": "┃AL┃ FOX LIFE",
+    "name": "FOX LIFE",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=269&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/FoxCHANNEL.png",
     "category": "┃AL┃ ALBANIA",
@@ -1930,11 +2068,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 138,
-    "name": "☰☰☰☰ ┃AL┃ PAKO ART MOTION ☰☰☰☰",
+    "name": "☰☰☰☰  PAKO ART MOTION ☰☰☰☰",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=113&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX2/ALBFLAG.png",
     "category": "┃AL┃ ALBANIA",
@@ -1944,11 +2083,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 139,
-    "name": "┃AL┃ ART KINO 1 HD",
+    "name": "ART KINO 1 HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=114&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/ALARTKINO.png",
     "category": "┃AL┃ ALBANIA",
@@ -1958,11 +2098,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 140,
-    "name": "┃AL┃ ART KINO 2 HD",
+    "name": "ART KINO 2 HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=115&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/ALARTKINO.png",
     "category": "┃AL┃ ALBANIA",
@@ -1972,11 +2113,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 141,
-    "name": "┃AL┃ ART KINO 3 HD",
+    "name": "ART KINO 3 HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=116&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/ALARTKINO.png",
     "category": "┃AL┃ ALBANIA",
@@ -1986,11 +2128,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 142,
-    "name": "┃AL┃ ART EPISODE HD",
+    "name": "ART EPISODE HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=117&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/ALARTKINO.png",
     "category": "┃AL┃ ALBANIA",
@@ -2000,11 +2143,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 143,
-    "name": "┃AL┃ ART PRIME HD",
+    "name": "ART PRIME HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=118&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/ALARTKINO.png",
     "category": "┃AL┃ ALBANIA",
@@ -2014,11 +2158,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 144,
-    "name": "☰☰☰☰ ┃AL┃ PAKO KUJTESA ☰☰☰☰",
+    "name": "☰☰☰☰  PAKO KUJTESA ☰☰☰☰",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=122&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX2/ALBFLAG.png",
     "category": "┃AL┃ ALBANIA",
@@ -2028,11 +2173,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 145,
-    "name": "┃AL┃ FILMBOX PREMIUM HD",
+    "name": "FILMBOX PREMIUM HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=129&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/NEDERLAND/FILMBOXHD.png",
     "category": "┃AL┃ ALBANIA",
@@ -2042,11 +2188,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 146,
-    "name": "┃AL┃ FILMBOX EXTRA HD",
+    "name": "FILMBOX EXTRA HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=131&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/NEDERLAND/FILMBOXHD.png",
     "category": "┃AL┃ ALBANIA",
@@ -2056,11 +2203,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 147,
-    "name": "┃AL┃ FILMBOX PLUS",
+    "name": "FILMBOX PLUS",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=132&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/NEDERLAND/FILMBOXHD.png",
     "category": "┃AL┃ ALBANIA",
@@ -2070,11 +2218,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 148,
-    "name": "┃AL┃ FILMBOX ARTHOUSE",
+    "name": "FILMBOX ARTHOUSE",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=130&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/NEDERLAND/FILMBOXHD.png",
     "category": "┃AL┃ ALBANIA",
@@ -2084,11 +2233,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 149,
-    "name": "┃AL┃ SKY AKSION HD",
+    "name": "SKY AKSION HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=123&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/SkyGALAXY.png",
     "category": "┃AL┃ ALBANIA",
@@ -2098,11 +2248,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 150,
-    "name": "┃AL┃ SKY MAX",
+    "name": "SKY MAX",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=127&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/SKYMAX.png",
     "category": "┃AL┃ ALBANIA",
@@ -2112,11 +2263,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 151,
-    "name": "┃AL┃ SKY KOMEDI",
+    "name": "SKY KOMEDI",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=124&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/SKYCOMEDY.png",
     "category": "┃AL┃ ALBANIA",
@@ -2126,11 +2278,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 152,
-    "name": "┃AL┃ SKY DRAME",
+    "name": "SKY DRAME",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=125&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/SkyGALAXY.png",
     "category": "┃AL┃ ALBANIA",
@@ -2140,11 +2293,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 153,
-    "name": "┃AL┃ SKY NOVELA",
+    "name": "SKY NOVELA",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=126&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/SkyGALAXY.png",
     "category": "┃AL┃ ALBANIA",
@@ -2154,11 +2308,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 154,
-    "name": "┃AL┃ SKY 7",
+    "name": "SKY 7",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=128&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/SkyGALAXY.png",
     "category": "┃AL┃ ALBANIA",
@@ -2168,11 +2323,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 155,
-    "name": "┃AL┃ TËVË AKSION",
+    "name": "TËVË AKSION",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=677296&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TEVE1.png",
     "category": "┃AL┃ ALBANIA",
@@ -2182,11 +2338,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 156,
-    "name": "┃AL┃ DIGI GOLD HD",
+    "name": "DIGI GOLD HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=189265&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/FILMGOLD.png",
     "category": "┃AL┃ ALBANIA",
@@ -2196,11 +2353,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 157,
-    "name": "┃AL┃ DIGI GOLD 1 HD",
+    "name": "DIGI GOLD 1 HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=189266&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/FILMGOLD.png",
     "category": "┃AL┃ ALBANIA",
@@ -2210,11 +2368,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 158,
-    "name": "┃AL┃ DIGI GOLD 2 HD",
+    "name": "DIGI GOLD 2 HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=189267&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/FILMGOLD.png",
     "category": "┃AL┃ ALBANIA",
@@ -2224,11 +2383,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 159,
-    "name": "┃AL┃ DIGI GOLD 3 HD",
+    "name": "DIGI GOLD 3 HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=189268&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/FILMGOLD.png",
     "category": "┃AL┃ ALBANIA",
@@ -2238,11 +2398,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 160,
-    "name": "┃AL┃ DIGI GOLD 4 HD",
+    "name": "DIGI GOLD 4 HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=189269&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/FILMGOLD.png",
     "category": "┃AL┃ ALBANIA",
@@ -2252,11 +2413,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 161,
-    "name": "┃AL┃ E PREMIERE 1 HD",
+    "name": "E PREMIERE 1 HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=189275&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/BRASIL/premiere.png",
     "category": "┃AL┃ ALBANIA",
@@ -2266,11 +2428,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 162,
-    "name": "┃AL┃ E PREMIERE 2 HD",
+    "name": "E PREMIERE 2 HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=189276&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/BRASIL/premiere.png",
     "category": "┃AL┃ ALBANIA",
@@ -2280,11 +2443,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 163,
-    "name": "┃AL┃ E PREMIERE 3 HD",
+    "name": "E PREMIERE 3 HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=189277&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/BRASIL/premiere.png",
     "category": "┃AL┃ ALBANIA",
@@ -2294,11 +2458,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 164,
-    "name": "┃AL┃ E PREMIERE 4 HD",
+    "name": "E PREMIERE 4 HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=189278&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/BRASIL/premiere.png",
     "category": "┃AL┃ ALBANIA",
@@ -2308,11 +2473,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 165,
-    "name": "┃AL┃ E ACTION HD",
+    "name": "E ACTION HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=189279&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/ALCINE.png",
     "category": "┃AL┃ ALBANIA",
@@ -2322,11 +2488,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 166,
-    "name": "┃AL┃ E THRILLER HD",
+    "name": "E THRILLER HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=189280&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/ALCINE.png",
     "category": "┃AL┃ ALBANIA",
@@ -2336,11 +2503,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 167,
-    "name": "┃AL┃ E COMEDY HD",
+    "name": "E COMEDY HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=189282&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/ALCINE.png",
     "category": "┃AL┃ ALBANIA",
@@ -2350,11 +2518,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 168,
-    "name": "┃AL┃ E FAMILY HD",
+    "name": "E FAMILY HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=189287&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/ALCINE.png",
     "category": "┃AL┃ ALBANIA",
@@ -2364,11 +2533,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 169,
-    "name": "┃AL┃ E DRAMA HD",
+    "name": "E DRAMA HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=189284&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/ALCINE.png",
     "category": "┃AL┃ ALBANIA",
@@ -2378,11 +2548,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 170,
-    "name": "┃AL┃ E ROMANCE HD",
+    "name": "E ROMANCE HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=189283&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/ALCINE.png",
     "category": "┃AL┃ ALBANIA",
@@ -2392,11 +2563,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 171,
-    "name": "┃AL┃ E SCI-FI HD",
+    "name": "E SCI-FI HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=189281&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/ALCINE.png",
     "category": "┃AL┃ ALBANIA",
@@ -2406,11 +2578,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 172,
-    "name": "┃AL┃ E DARK HD",
+    "name": "E DARK HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=189285&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/ALCINE.png",
     "category": "┃AL┃ ALBANIA",
@@ -2420,11 +2593,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 173,
-    "name": "┃AL┃ E WESTERN HD",
+    "name": "E WESTERN HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=189286&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/ALCINE.png",
     "category": "┃AL┃ ALBANIA",
@@ -2434,11 +2608,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 174,
-    "name": "┃AL┃ E FILMA24 HD",
+    "name": "E FILMA24 HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=189274&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/ALCINE.png",
     "category": "┃AL┃ ALBANIA",
@@ -2448,11 +2623,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 175,
-    "name": "┃AL┃ CINE 1 HD",
+    "name": "CINE 1 HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=189270&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/ALCINE.png",
     "category": "┃AL┃ ALBANIA",
@@ -2462,11 +2638,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 176,
-    "name": "┃AL┃ CINE 2 HD",
+    "name": "CINE 2 HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=189271&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/ALCINE.png",
     "category": "┃AL┃ ALBANIA",
@@ -2476,11 +2653,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 177,
-    "name": "┃AL┃ CINE 3 HD",
+    "name": "CINE 3 HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=189272&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/ALCINE.png",
     "category": "┃AL┃ ALBANIA",
@@ -2490,11 +2668,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 178,
-    "name": "┃AL┃ CINE 4 HD",
+    "name": "CINE 4 HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=189273&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/ALCINE.png",
     "category": "┃AL┃ ALBANIA",
@@ -2504,11 +2683,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 179,
-    "name": "☰☰☰☰ ┃AL┃ PAKO FËMIJË ☰☰☰☰",
+    "name": "☰☰☰☰  PAKO FËMIJË ☰☰☰☰",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=192&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX2/ALBFLAG.png",
     "category": "┃AL┃ ALBANIA",
@@ -2518,11 +2698,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 180,
-    "name": "┃AL┃ E KIDS",
+    "name": "E KIDS",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=677275&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/GREECE/CINEKIDS.png",
     "category": "┃AL┃ ALBANIA",
@@ -2532,11 +2713,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 181,
-    "name": "┃AL┃ RTSH SHKOLLE",
+    "name": "RTSH SHKOLLE",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=677278&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/ALRTSHSHKOLLE.png",
     "category": "┃AL┃ ALBANIA",
@@ -2546,11 +2728,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 182,
-    "name": "┃AL┃ BANG BANG",
+    "name": "BANG BANG",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=193&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/Bang_Bang_Albania.png",
     "category": "┃AL┃ ALBANIA",
@@ -2560,11 +2743,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 183,
-    "name": "┃AL┃ CUFO",
+    "name": "CUFO",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=194&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/Cufo_TV.png",
     "category": "┃AL┃ ALBANIA",
@@ -2574,11 +2758,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 184,
-    "name": "┃AL┃ TRING TRING",
+    "name": "TRING TRING",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=195&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TRINGTRING.png",
     "category": "┃AL┃ ALBANIA",
@@ -2588,11 +2773,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 185,
-    "name": "┃AL┃ TRING KIDS",
+    "name": "TRING KIDS",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=196&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TRING.png",
     "category": "┃AL┃ ALBANIA",
@@ -2602,11 +2788,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 186,
-    "name": "┃AL┃ BUBBLE TV",
+    "name": "BUBBLE TV",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=677279&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/GREECE/CINEKIDS.png",
     "category": "┃AL┃ ALBANIA",
@@ -2616,11 +2803,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 187,
-    "name": "┃AL┃ TOM & JERRY",
+    "name": "TOM & JERRY",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=677276&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/GREECE/CINEKIDS.png",
     "category": "┃AL┃ ALBANIA",
@@ -2630,11 +2818,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 188,
-    "name": "┃AL┃ TRING SOFIA",
+    "name": "TRING SOFIA",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=199&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TRING.png",
     "category": "┃AL┃ ALBANIA",
@@ -2644,11 +2833,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 189,
-    "name": "┃AL┃ DUCK TV",
+    "name": "DUCK TV",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=677277&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/NEDERLAND/DUCKTVHD.png",
     "category": "┃AL┃ ALBANIA",
@@ -2658,11 +2848,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 190,
-    "name": "┃AL┃ JUNIOR",
+    "name": "JUNIOR",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=200&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/JUNIOR.png",
     "category": "┃AL┃ ALBANIA",
@@ -2672,11 +2863,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 191,
-    "name": "┃AL┃ TIP TV",
+    "name": "TIP TV",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=198&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TIPTV.png",
     "category": "┃AL┃ ALBANIA",
@@ -2686,11 +2878,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 192,
-    "name": "┃AL┃ ART PRINCE KIDS",
+    "name": "ART PRINCE KIDS",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=197&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/ARTPRINCEKIDS.png",
     "category": "┃AL┃ ALBANIA",
@@ -2700,11 +2893,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 193,
-    "name": "┃AL┃ CARTOON NETWORK",
+    "name": "CARTOON NETWORK",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=203&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/CartoonNETWORK.png",
     "category": "┃AL┃ ALBANIA",
@@ -2714,11 +2908,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 194,
-    "name": "┃AL┃ BOOMERANG",
+    "name": "BOOMERANG",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=202&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/Boomerang_tv_logo.png",
     "category": "┃AL┃ ALBANIA",
@@ -2728,11 +2923,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 195,
-    "name": "┃AL┃ RTV21 JUNIOR",
+    "name": "RTV21 JUNIOR",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=201&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/RTV21.png",
     "category": "┃AL┃ ALBANIA",
@@ -2742,11 +2938,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 196,
-    "name": "┃AL┃ RTSH FEMIJË",
+    "name": "RTSH FEMIJË",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=204&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/RTSHFEMIJE.png",
     "category": "┃AL┃ ALBANIA",
@@ -2756,11 +2953,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 197,
-    "name": "┃AL┃ BABY TV",
+    "name": "BABY TV",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=207&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/BabyTV.png",
     "category": "┃AL┃ ALBANIA",
@@ -2770,11 +2968,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 198,
-    "name": "☰☰☰☰ ┃AL┃ PAKO DOKU ☰☰☰☰",
+    "name": "☰☰☰☰  PAKO DOKU ☰☰☰☰",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=219&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX2/ALBFLAG.png",
     "category": "┃AL┃ ALBANIA",
@@ -2784,11 +2983,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 199,
-    "name": "┃AL┃ EXPLORER SHKENCE",
+    "name": "EXPLORER SHKENCE",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=220&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/EXPLORERShkence.png",
     "category": "┃AL┃ ALBANIA",
@@ -2798,11 +2998,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 200,
-    "name": "┃AL┃ EXPLORER HISTORI",
+    "name": "EXPLORER HISTORI",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=222&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/exp-histori-logo.png",
     "category": "┃AL┃ ALBANIA",
@@ -2812,11 +3013,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 201,
-    "name": "┃AL┃ EXPLORER NATYRA",
+    "name": "EXPLORER NATYRA",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=221&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/EXP_Natyra_AL_logo.png",
     "category": "┃AL┃ ALBANIA",
@@ -2826,11 +3028,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 202,
-    "name": "┃AL┃ TRING WORLD",
+    "name": "TRING WORLD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=225&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TRING.png",
     "category": "┃AL┃ ALBANIA",
@@ -2840,11 +3043,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 203,
-    "name": "┃AL┃ TRING HISTORY",
+    "name": "TRING HISTORY",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=223&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TRING.png",
     "category": "┃AL┃ ALBANIA",
@@ -2854,11 +3058,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 204,
-    "name": "┃AL┃ TRING PLANET",
+    "name": "TRING PLANET",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=224&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TRING.png",
     "category": "┃AL┃ ALBANIA",
@@ -2868,11 +3073,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 205,
-    "name": "┃AL┃ DISCOVERY CHANNEL HD",
+    "name": "DISCOVERY CHANNEL HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=227&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/DISCOVERYCHANNEL.png",
     "category": "┃AL┃ ALBANIA",
@@ -2882,11 +3088,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 206,
-    "name": "┃AL┃ DISCOVERY SCIENCE HD",
+    "name": "DISCOVERY SCIENCE HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=228&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/DISCOVERYSCIENCE.png",
     "category": "┃AL┃ ALBANIA",
@@ -2896,11 +3103,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 207,
-    "name": "┃AL┃ NATIONAL GEOGRAPHIC HD",
+    "name": "NATIONAL GEOGRAPHIC HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=230&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/NATGEO.png",
     "category": "┃AL┃ ALBANIA",
@@ -2910,11 +3118,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 208,
-    "name": "┃AL┃ DOKU 1",
+    "name": "DOKU 1",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=677295&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX4/doku1al.png",
     "category": "┃AL┃ ALBANIA",
@@ -2924,11 +3133,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 209,
-    "name": "┃AL┃ SKY GALAXY",
+    "name": "SKY GALAXY",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=226&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/SkyGALAXY.png",
     "category": "┃AL┃ ALBANIA",
@@ -2938,11 +3148,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 210,
-    "name": "┃AL┃ 24KITCHEN",
+    "name": "24KITCHEN",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=231&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/24Kitchen_HD.png",
     "category": "┃AL┃ ALBANIA",
@@ -2952,11 +3163,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 211,
-    "name": "┃AL┃ LIVING HD",
+    "name": "LIVING HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=232&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/living-l.png",
     "category": "┃AL┃ ALBANIA",
@@ -2966,11 +3178,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 212,
-    "name": "┃AL┃ FASHION BOX HD",
+    "name": "FASHION BOX HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=677283&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/ALFASHIONBOX.png",
     "category": "┃AL┃ ALBANIA",
@@ -2980,11 +3193,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 213,
-    "name": "┃AL┃ E SHKENCA HD",
+    "name": "E SHKENCA HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=189288&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/E SHKENCA HD.png",
     "category": "┃AL┃ ALBANIA",
@@ -2994,11 +3208,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 214,
-    "name": "┃AL┃ E HISTORI HD",
+    "name": "E HISTORI HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=189290&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/E HISTORI HD.png",
     "category": "┃AL┃ ALBANIA",
@@ -3008,11 +3223,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 215,
-    "name": "┃AL┃ E NATYRA HD",
+    "name": "E NATYRA HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=189289&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/E NATYRA HD.png",
     "category": "┃AL┃ ALBANIA",
@@ -3022,11 +3238,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 216,
-    "name": "┃AL┃ E GJURMET SHQIPTARE HD",
+    "name": "E GJURMET SHQIPTARE HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=189291&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/E GJURMET SHQIPTARE HD.png",
     "category": "┃AL┃ ALBANIA",
@@ -3036,11 +3253,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 217,
-    "name": "┃AL┃ E 2XL HD",
+    "name": "E 2XL HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=189300&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/E 2XL HD.png",
     "category": "┃AL┃ ALBANIA",
@@ -3050,11 +3268,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 218,
-    "name": "┃AL┃ CLUB TV",
+    "name": "CLUB TV",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=384914&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/CLUBTV.png",
     "category": "┃AL┃ ALBANIA",
@@ -3064,11 +3283,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 219,
-    "name": "☰☰☰☰ ┃AL┃ PAKO LOKALE ☰☰☰☰",
+    "name": "☰☰☰☰  PAKO LOKALE ☰☰☰☰",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=250&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX2/ALBFLAG.png",
     "category": "┃AL┃ ALBANIA",
@@ -3078,11 +3298,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 220,
-    "name": "┃AL┃ TV LIRIA",
+    "name": "TV LIRIA",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=265&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TVLIRIA.png",
     "category": "┃AL┃ ALBANIA",
@@ -3092,11 +3313,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 221,
-    "name": "┃AL┃ TEMA TV",
+    "name": "TEMA TV",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=262&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TEMATV.png",
     "category": "┃AL┃ ALBANIA",
@@ -3106,11 +3328,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 222,
-    "name": "┃AL┃ TV MITROVICA",
+    "name": "TV MITROVICA",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=260&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TVMITROVICA.png",
     "category": "┃AL┃ ALBANIA",
@@ -3120,11 +3343,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 223,
-    "name": "┃AL┃ RTV PRESHEVA",
+    "name": "RTV PRESHEVA",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=256&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/RTVPRESHEVA.png",
     "category": "┃AL┃ ALBANIA",
@@ -3134,11 +3358,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 224,
-    "name": "┃AL┃ ALB'SWISS TV HD",
+    "name": "ALB'SWISS TV HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=772484&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/ALB'SWISS TV HD.png",
     "category": "┃AL┃ ALBANIA",
@@ -3148,11 +3373,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 225,
-    "name": "┃AL┃ BESA",
+    "name": "BESA",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=255&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/besa-logo.png",
     "category": "┃AL┃ ALBANIA",
@@ -3162,11 +3388,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 226,
-    "name": "┃AL┃ TV ROZAFA SHKODËR",
+    "name": "TV ROZAFA SHKODËR",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=261&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/TV1CHANNELSHKODER.png",
     "category": "┃AL┃ ALBANIA",
@@ -3176,11 +3403,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 227,
-    "name": "┃AL┃ STAR PLUS SHKODËR",
+    "name": "STAR PLUS SHKODËR",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=257&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/STARPLUS.png",
     "category": "┃AL┃ ALBANIA",
@@ -3190,11 +3418,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 228,
-    "name": "┃AL┃ KOPLIKU HD",
+    "name": "KOPLIKU HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=259&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/KOPLIKU.png",
     "category": "┃AL┃ ALBANIA",
@@ -3204,11 +3433,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 229,
-    "name": "┃AL┃ IN TV",
+    "name": "IN TV",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=264&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/INTV.png",
     "category": "┃AL┃ ALBANIA",
@@ -3218,11 +3448,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 230,
-    "name": "┃AL┃ A-MOL TV",
+    "name": "A-MOL TV",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=258&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/A-MOL.png",
     "category": "┃AL┃ ALBANIA",
@@ -3232,11 +3463,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 231,
-    "name": "┃AL┃ TV USKANA",
+    "name": "TV USKANA",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=676115&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/ALTVUSKANA.png",
     "category": "┃AL┃ ALBANIA",
@@ -3246,11 +3478,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 232,
-    "name": "┃AL┃ TV ZJARR",
+    "name": "TV ZJARR",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=263&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/ZJARRTV.png",
     "category": "┃AL┃ ALBANIA",
@@ -3260,11 +3493,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 233,
-    "name": "┃AL┃ RTSH SHQIP",
+    "name": "RTSH SHQIP",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=252&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/RTSH_Shqip_(2020_Logo).png",
     "category": "┃AL┃ ALBANIA",
@@ -3274,11 +3508,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 234,
-    "name": "┃AL┃ TERRA TV HD",
+    "name": "TERRA TV HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=677312&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/ALTERRATV.png",
     "category": "┃AL┃ ALBANIA",
@@ -3288,11 +3523,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 235,
-    "name": "┃AL┃ KORÇA PLUS",
+    "name": "KORÇA PLUS",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=677310&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/ALKORCATV.png",
     "category": "┃AL┃ ALBANIA",
@@ -3302,11 +3538,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 236,
-    "name": "┃AL┃ TV LLAPI",
+    "name": "TV LLAPI",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=677308&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/ALTVLLAPI.png",
     "category": "┃AL┃ ALBANIA",
@@ -3316,11 +3553,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 237,
-    "name": "┃AL┃ PRO 1 TV",
+    "name": "PRO 1 TV",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=677306&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/ALPRO1TV.png",
     "category": "┃AL┃ ALBANIA",
@@ -3330,11 +3568,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 238,
-    "name": "┃AL┃ RTSH PLUS",
+    "name": "RTSH PLUS",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=677305&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/ALRTSHPLUS.png",
     "category": "┃AL┃ ALBANIA",
@@ -3344,11 +3583,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 239,
-    "name": "┃AL┃ RTSH FILM",
+    "name": "RTSH FILM",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=677304&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/ALRTSHFILM.png",
     "category": "┃AL┃ ALBANIA",
@@ -3358,11 +3598,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 240,
-    "name": "┃AL┃ 7 TV",
+    "name": "7 TV",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=677303&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX3/AL7TV.png",
     "category": "┃AL┃ ALBANIA",
@@ -3372,11 +3613,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 241,
-    "name": "┃AL┃ STAR HD",
+    "name": "STAR HD",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=677280&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/TURKEY/startv.png",
     "category": "┃AL┃ ALBANIA",
@@ -3386,11 +3628,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 242,
-    "name": "☰☰☰☰ ┃AL┃ PAKO ISLAM ☰☰☰☰",
+    "name": "☰☰☰☰  PAKO ISLAM ☰☰☰☰",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=270&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/MIX2/ALBFLAG.png",
     "category": "┃AL┃ ALBANIA",
@@ -3400,11 +3643,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 243,
-    "name": "┃AL┃ PEACE TV",
+    "name": "PEACE TV",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=280&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/peacetv.png",
     "category": "┃AL┃ ALBANIA",
@@ -3414,11 +3658,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 244,
-    "name": "┃AL┃ RTV ISLAM",
+    "name": "RTV ISLAM",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=281&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/RTVISLAM.png",
     "category": "┃AL┃ ALBANIA",
@@ -3428,11 +3673,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 245,
-    "name": "┃AL┃ RTV PENDIMI",
+    "name": "RTV PENDIMI",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=277&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/RTVPENDIMI.png",
     "category": "┃AL┃ ALBANIA",
@@ -3442,11 +3688,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 246,
-    "name": "┃AL┃ MEDINE LIVE",
+    "name": "MEDINE LIVE",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=275&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/BOSNA/medine-tv.png",
     "category": "┃AL┃ ALBANIA",
@@ -3456,11 +3703,12 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   },
   {
     "id": 247,
-    "name": "┃AL┃ MEKKE LIVE",
+    "name": "MEKKE LIVE",
     "url": "http://server.stream-one.fun:80/play/live.php?mac=00:1B:79:3F:21:AC&stream=276&extension=m3u8",
     "logo": "http://picon.tivi-ott.net:25461/picon/ALBANIA/MEKKALIVE.png",
     "category": "┃AL┃ ALBANIA",
@@ -3470,9 +3718,10 @@
     "isLive": true,
     "epgId": null,
     "epgName": null,
-    "hasEpg": false
+    "hasEpg": false,
+    "tags": []
   }
-  ],
+],
   "countries": {
     "AL": "Shqipëri",
     "XK": "Kosovë",
