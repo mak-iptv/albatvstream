@@ -1,0 +1,32 @@
+{
+  "name": "SUPER WEB IPTV",
+  "short_name": "IPTV",
+  "description": "Super Web IPTV me 1000+ kanale HD shqip",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f0f1a",
+  "theme_color": "#8a2be2",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 fill=%22%238a2be2%22>📺</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["entertainment", "tv", "streaming"],
+  "shortcuts": [
+    {
+      "name": "Live TV",
+      "short_name": "Live",
+      "description": "Shikoni TV live",
+      "url": "/#live"
+    },
+    {
+      "name": "All Channels",
+      "short_name": "Channels",
+      "description": "Të gjitha kanalet",
+      "url": "/#channels"
+    }
+  ]
+}
