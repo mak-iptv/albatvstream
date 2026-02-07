@@ -1,32 +1,77 @@
 {
   "name": "SUPER WEB IPTV",
-  "short_name": "IPTV",
-  "description": "Super Web IPTV me 1000+ kanale HD shqip",
+  "short_name": "SUPER IPTV",
+  "description": "1000+ Kanale HD Shqip - Live Streaming TV",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0f0f1a",
   "theme_color": "#8a2be2",
-  "orientation": "portrait",
+  "orientation": "portrait-primary",
+  "categories": ["entertainment", "video", "tv"],
   "icons": [
     {
-      "src": "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 fill=%22%238a2be2%22>📺</text></svg>",
+      "src": "https://img.icons8.com/color/96/000000/tv.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "https://img.icons8.com/color/144/000000/tv.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "https://img.icons8.com/color/192/000000/tv.png",
       "sizes": "192x192",
-      "type": "image/svg+xml"
+      "type": "image/png"
+    },
+    {
+      "src": "https://img.icons8.com/color/512/000000/tv.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ],
-  "categories": ["entertainment", "tv", "streaming"],
   "shortcuts": [
     {
       "name": "Live TV",
       "short_name": "Live",
-      "description": "Shikoni TV live",
-      "url": "/#live"
+      "description": "Watch live TV channels",
+      "url": "/?shortcut=live",
+      "icons": [{ "src": "https://img.icons8.com/color/96/000000/live-tv.png", "sizes": "96x96" }]
     },
     {
-      "name": "All Channels",
-      "short_name": "Channels",
-      "description": "Të gjitha kanalet",
-      "url": "/#channels"
+      "name": "Favorites",
+      "short_name": "Favs",
+      "description": "Your favorite channels",
+      "url": "/?shortcut=favorites",
+      "icons": [{ "src": "https://img.icons8.com/color/96/000000/favorites.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Sports",
+      "short_name": "Sport",
+      "description": "Sports channels",
+      "url": "/?shortcut=sports",
+      "icons": [{ "src": "https://img.icons8.com/color/96/000000/sports.png", "sizes": "96x96" }]
     }
-  ]
+  ],
+  "screenshots": [
+    {
+      "src": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?ixlib=rb-1.2.1&auto=format&fit=crop&w=1280&h=720&q=80",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "Desktop view"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&h=1334&q=80",
+      "sizes": "750x1334",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "Mobile view"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "scope": "/",
+  "lang": "sq",
+  "dir": "ltr"
 }
