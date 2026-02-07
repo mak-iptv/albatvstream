@@ -1182,3 +1182,362 @@ window.debugIPTV = {
 
 console.log('IPTV App loaded successfully!');
 console.log('Debug commands: debugIPTV.testChannel(1), debugIPTV.testFirstChannel()');
+// M3U to JSON Converter Functions
+let m3uConverter = null;
+let convertedData = null;
+
+// Initialize converter
+function initConverter() {
+    m3uConverter = new M3UtoJSON();
+    setupConverterEvents();
+}
+
+// Setup converter event listeners
+function setupConverterEvents() {
+    const fileInput = document.getElementById('m3u-file');
+    const fileUploadArea = document.getElementById('file-upload-area');
+    
+    if (!fileInput || !fileUploadArea) return;
+    
+    // File input change
+    fileInput.addEventListener('change', handleFileSelect);
+    
+    // Drag and drop
+    fileUploadArea.addEventListener('dragover', handleDragOver);
+    fileUploadArea.addEventListener('dragleave', handleDragLeave);
+    fileUploadArea.addEventListener('drop', handleDrop);
+    
+    // Click on upload area
+    fileUploadArea.addEventListener('click', () => {
+        fileInput.click();
+    });
+}
+
+// Handle file selection
+function handleFileSelect(event) {
+    const file = event.target.files[0];
+    if (file) {
+        displayFileInfo(file);
+    }
+}
+
+// Display file information
+function displayFileInfo(file) {
+    const fileInfo = document.getElementById('file-info');
+    if (fileInfo) {
+        fileInfo.innerHTML = `
+            <strong>${file.name}</strong>
+            <br>Size: ${formatFileSize(file.size)}
+            <br>Type: ${file.type || 'Unknown'}
+        `;
+    }
+}
+
+// Format file size
+function formatFileSize(bytes) {
+    if (bytes === 0) return '0 Bytes';
+    const k = 1024;
+    const sizes = ['Bytes', 'KB', 'MB', 'GB'];
+    const i = Math.floor(Math.log(bytes) / Math.log(k));
+    return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
+}
+
+// Handle drag over
+function handleDragOver(event) {
+    event.preventDefault();
+    event.stopPropagation();
+    const fileUploadArea = document.getElementById('file-upload-area');
+    if (fileUploadArea) {
+        fileUploadArea.classList.add('drag-over');
+    }
+}
+
+// Handle drag leave
+function handleDragLeave(event) {
+    event.preventDefault();
+    event.stopPropagation();
+    const fileUploadArea = document.getElementById('file-upload-area');
+    if (fileUploadArea) {
+        fileUploadArea.classList.remove('drag-over');
+    }
+}
+
+// Handle drop
+function handleDrop(event) {
+    event.preventDefault();
+    event.stopPropagation();
+    
+    const fileUploadArea = document.getElementById('file-upload-area');
+    if (fileUploadArea) {
+        fileUploadArea.classList.remove('drag-over');
+    }
+    
+    const files = event.dataTransfer.files;
+    if (files.length > 0) {
+        const fileInput = document.getElementById('m3u-file');
+        if (fileInput) {
+            // Create a new DataTransfer object
+            const dataTransfer = new DataTransfer();
+            dataTransfer.items.add(files[0]);
+            fileInput.files = dataTransfer.files;
+            
+            // Trigger change event
+            const changeEvent = new Event('change', { bubbles: true });
+            fileInput.dispatchEvent(changeEvent);
+        }
+    }
+}
+
+// Convert M3U to JSON
+async function convertM3U() {
+    const fileInput = document.getElementById('m3u-file');
+    if (!fileInput || !fileInput.files[0]) {
+        showNotification('Ju lutem zgjidhni një skedar M3U', 'error');
+        return;
+    }
+    
+    const convertBtn = document.getElementById('convert-btn');
+    if (convertBtn) {
+        convertBtn.disabled = true;
+        convertBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Po konvertohet...';
+    }
+    
+    try {
+        const file = fileInput.files[0];
+        convertedData = await m3uConverter.convertFile(file);
+        
+        // Display JSON
+        displayJSON(convertedData);
+        
+        // Update stats
+        updateConverterStats(convertedData);
+        
+        showNotification(`U konvertuan ${convertedData.channels.length} kanale me sukses!`, 'success');
+        
+    } catch (error) {
+        console.error('Conversion error:', error);
+        showNotification(`Gabim në konvertim: ${error.message}`, 'error');
+    } finally {
+        if (convertBtn) {
+            convertBtn.disabled = false;
+            convertBtn.innerHTML = '<i class="fas fa-sync-alt"></i> Konverto M3U në JSON';
+        }
+    }
+}
+
+// Display JSON output
+function displayJSON(jsonData) {
+    const jsonOutput = document.getElementById('json-output');
+    if (jsonOutput) {
+        jsonOutput.textContent = JSON.stringify(jsonData, null, 2);
+        
+        // Apply syntax highlighting (simple version)
+        setTimeout(() => {
+            highlightJSON();
+        }, 100);
+    }
+}
+
+// Simple JSON syntax highlighting
+function highlightJSON() {
+    const jsonOutput = document.getElementById('json-output');
+    if (!jsonOutput) return;
+    
+    let text = jsonOutput.textContent;
+    
+    // Highlight strings
+    text = text.replace(/("([^\\"]|\\.)*")/g, '<span class="json-string">$1</span>');
+    
+    // Highlight numbers
+    text = text.replace(/: (\d+)/g, ': <span class="json-number">$1</span>');
+    
+    // Highlight booleans and null
+    text = text.replace(/: (true|false|null)/g, ': <span class="json-boolean">$1</span>');
+    
+    // Highlight keys
+    text = text.replace(/("[^"]+"):/g, '<span class="json-key">$1</span>:');
+    
+    jsonOutput.innerHTML = text;
+}
+
+// Update converter stats
+function updateConverterStats(jsonData) {
+    const statsElement = document.getElementById('converter-stats');
+    if (!statsElement) return;
+    
+    const channels = jsonData.channels.length;
+    const categories = jsonData.categories.length;
+    const countries = Object.keys(jsonData.countries).length;
+    const qualities = jsonData.qualities.length;
+    
+    statsElement.innerHTML = `
+        <div class="stat-item">
+            <i class="fas fa-tv"></i>
+            <span>Kanale: <strong>${channels}</strong></span>
+        </div>
+        <div class="stat-item">
+            <i class="fas fa-tags"></i>
+            <span>Kategori: <strong>${categories}</strong></span>
+        </div>
+        <div class="stat-item">
+            <i class="fas fa-globe"></i>
+            <span>Vende: <strong>${countries}</strong></span>
+        </div>
+        <div class="stat-item">
+            <i class="fas fa-signal"></i>
+            <span>Cilësi: <strong>${qualities}</strong></span>
+        </div>
+    `;
+}
+
+// Copy JSON to clipboard
+function copyJSON() {
+    const jsonOutput = document.getElementById('json-output');
+    if (!jsonOutput || !convertedData) {
+        showNotification('Nuk ka të dhëna për të kopjuar', 'error');
+        return;
+    }
+    
+    const jsonStr = JSON.stringify(convertedData, null, 2);
+    
+    navigator.clipboard.writeText(jsonStr).then(() => {
+        showNotification('JSON u kopjua në clipboard', 'success');
+    }).catch(err => {
+        console.error('Copy failed:', err);
+        showNotification('Nuk mund të kopjohet JSON', 'error');
+    });
+}
+
+// Download JSON file
+function downloadJSON() {
+    if (!convertedData) {
+        showNotification('Nuk ka të dhëna për të shkarkuar', 'error');
+        return;
+    }
+    
+    m3uConverter.downloadJSON(convertedData, 'channels-converted.json');
+    showNotification('JSON u shkarkua me sukses', 'success');
+}
+
+// Clear converter
+function clearConverter() {
+    const fileInput = document.getElementById('m3u-file');
+    const fileInfo = document.getElementById('file-info');
+    const jsonOutput = document.getElementById('json-output');
+    const statsElement = document.getElementById('converter-stats');
+    
+    if (fileInput) fileInput.value = '';
+    if (fileInfo) fileInfo.textContent = 'Asnjë skedar i zgjedhur';
+    if (jsonOutput) jsonOutput.textContent = '{\n  "version": "3.0.0",\n  "last_updated": "",\n  "total_channels": 0,\n  "channels": []\n}';
+    if (statsElement) statsElement.innerHTML = `
+        <div class="stat-item">
+            <i class="fas fa-tv"></i>
+            <span>Kanale: <strong>0</strong></span>
+        </div>
+        <div class="stat-item">
+            <i class="fas fa-tags"></i>
+            <span>Kategori: <strong>0</strong></span>
+        </div>
+        <div class="stat-item">
+            <i class="fas fa-globe"></i>
+            <span>Vende: <strong>0</strong></span>
+        </div>
+        <div class="stat-item">
+            <i class="fas fa-signal"></i>
+            <span>Cilësi: <strong>0</strong></span>
+        </div>
+    `;
+    
+    convertedData = null;
+    showNotification('Converter u pastrua', 'info');
+}
+
+// Load sample M3U
+function loadSampleM3U() {
+    const sampleM3U = `#EXTM3U
+#EXTINF:-1 tvg-id="rtsh1.al" tvg-name="RTSH 1 HD" tvg-logo="http://example.com/rtsh1.png" group-title="ALBANIA",RTSH 1 HD
+http://server.example.com/rtsh1.m3u8
+#EXTINF:-1 tvg-id="tvklan.al" tvg-name="TV Klan HD" tvg-logo="http://example.com/tvklan.png" group-title="ALBANIA",TV Klan HD
+http://server.example.com/tvklan.m3u8
+#EXTINF:-1 tvg-id="topchannel.al" tvg-name="Top Channel FHD" tvg-logo="http://example.com/topchannel.png" group-title="ALBANIA",Top Channel
+http://server.example.com/topchannel.m3u8
+#EXTINF:-1 tvg-id="abcnews.al" tvg-name="ABC News HD" tvg-logo="http://example.com/abcnews.png" group-title="ALBANIA",ABC News
+http://server.example.com/abcnews.m3u8
+#EXTINF:-1 tvg-id="rtk1.xk" tvg-name="RTK 1 HD" tvg-logo="http://example.com/rtk1.png" group-title="KOSOVA",RTK 1
+http://server.example.com/rtk1.m3u8
+#EXTINF:-1 tvg-id="cnn.us" tvg-name="CNN International HD" tvg-logo="http://example.com/cnn.png" group-title="USA",CNN
+http://server.example.com/cnn.m3u8
+#EXTINF:-1 tvg-id="bbc.uk" tvg-name="BBC World News FHD" tvg-logo="http://example.com/bbc.png" group-title="UK",BBC News
+http://server.example.com/bbc.m3u8`;
+    
+    // Create a blob and simulate file selection
+    const blob = new Blob([sampleM3U], { type: 'text/plain' });
+    const file = new File([blob], 'sample.m3u', { type: 'text/plain' });
+    
+    const fileInput = document.getElementById('m3u-file');
+    if (fileInput) {
+        const dataTransfer = new DataTransfer();
+        dataTransfer.items.add(file);
+        fileInput.files = dataTransfer.files;
+        
+        displayFileInfo(file);
+        
+        showNotification('Shembull M3U u ngarkua', 'success');
+    }
+}
+
+// Test converter
+async function testConverter() {
+    showNotification('Po testohet konverteri...', 'info');
+    
+    // Create test M3U content
+    const testM3U = `#EXTM3U
+#EXTINF:-1 tvg-id="test1.al" tvg-name="Test Channel 1 HD" tvg-logo="http://test.com/1.png" group-title="ALBANIA",Test Channel 1
+http://test.com/channel1.m3u8
+#EXTINF:-1 tvg-id="test2.xk" tvg-name="Test Channel 2 FHD" tvg-logo="http://test.com/2.png" group-title="KOSOVA",Test Channel 2
+http://test.com/channel2.m3u8`;
+    
+    try {
+        const converter = new M3UtoJSON();
+        const jsonData = converter.parse(testM3U);
+        
+        // Display test results
+        const jsonOutput = document.getElementById('json-output');
+        if (jsonOutput) {
+            jsonOutput.textContent = JSON.stringify(jsonData, null, 2);
+            highlightJSON();
+        }
+        
+        updateConverterStats(jsonData);
+        
+        showNotification(`Testi i konvertimit u krye me sukses! ${jsonData.channels.length} kanale u konvertuan.`, 'success');
+        
+    } catch (error) {
+        console.error('Test conversion error:', error);
+        showNotification(`Gabim në test: ${error.message}`, 'error');
+    }
+}
+
+// Initialize converter when DOM is loaded
+document.addEventListener('DOMContentLoaded', function() {
+    // Wait a bit for everything to load
+    setTimeout(() => {
+        initConverter();
+        highlightJSON();
+    }, 1000);
+});
+
+// Add converter functions to window
+window.convertM3U = convertM3U;
+window.copyJSON = copyJSON;
+window.downloadJSON = downloadJSON;
+window.clearConverter = clearConverter;
+window.loadSampleM3U = loadSampleM3U;
+window.testConverter = testConverter;
+
+// Update main initApp to also init converter
+const originalInitApp = window.initApp;
+window.initApp = async function() {
+    await originalInitApp();
+    initConverter();
+};
