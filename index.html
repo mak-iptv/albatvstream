@@ -1,1 +1,621 @@
 
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUPER WEB IPTV - 1000+ Kanale HD</title>
+    
+    <!-- Meta Tags për SEO -->
+    <meta name="description" content="SUPER WEB IPTV me 1000+ kanale HD shqip. Shikoni TV falas në internet.">
+    <meta name="keywords" content="IPTV, TV Shqip, Kanale HD, Streaming, Live TV">
+    <meta name="author" content="SUPER IPTV">
+    
+    <!-- Stilet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Video.js -->
+    <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#8a2be2">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📺</text></svg>">
+    
+    <style>
+        /* Loading Screen */
+        #loading-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #0f0f1a 0%, #1a1a2e 100%);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            transition: opacity 0.5s ease;
+        }
+        
+        .loading-logo {
+            font-size: 4rem;
+            color: #8a2be2;
+            margin-bottom: 20px;
+            animation: pulse 2s infinite;
+        }
+        
+        .loading-text {
+            font-size: 1.2rem;
+            color: #fff;
+            margin-bottom: 30px;
+        }
+        
+        .loading-bar {
+            width: 300px;
+            height: 4px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 2px;
+            overflow: hidden;
+        }
+        
+        .loading-progress {
+            height: 100%;
+            background: linear-gradient(90deg, #8a2be2, #6a11cb);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.1); opacity: 0.8; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+    </style>
+</head>
+<body class="night-mode">
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loading-logo">
+            <i class="fas fa-satellite-dish"></i>
+        </div>
+        <h1 class="loading-text">SUPER WEB IPTV</h1>
+        <p>Duke ngarkuar kanalet...</p>
+        <div class="loading-bar">
+            <div class="loading-progress" id="loading-progress"></div>
+        </div>
+    </div>
+
+    <!-- Quick Actions -->
+    <div class="quick-actions">
+        <button class="quick-btn" onclick="toggleNightMode()" title="Ndrysho modën">
+            <i class="fas fa-moon"></i>
+        </button>
+        <button class="quick-btn" onclick="testAllChannels()" title="Testo të gjitha kanalet">
+            <i class="fas fa-vial"></i>
+        </button>
+        <button class="quick-btn" onclick="downloadM3U()" title="Shkarko playlist">
+            <i class="fas fa-download"></i>
+        </button>
+        <button class="quick-btn" onclick="showPlayer()" title="Player i shpejtë">
+            <i class="fas fa-play"></i>
+        </button>
+        <button class="quick-btn" onclick="scrollToTop()" title="Kthehu në fillim">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </div>
+
+    <!-- Floating Player -->
+    <div class="floating-player" id="floating-player">
+        <div class="player-header">
+            <h4 id="floating-title">Player</h4>
+            <button onclick="closeFloatingPlayer()">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="player-body">
+            <video id="floating-video" class="video-js vjs-default-skin" controls preload="auto" style="width:100%;height:200px;"></video>
+        </div>
+    </div>
+
+    <!-- Main App -->
+    <div id="app">
+        <!-- Header -->
+        <header class="main-header">
+            <div class="header-content">
+                <div class="logo-section">
+                    <h1><i class="fas fa-tv"></i> SUPER WEB IPTV</h1>
+                    <p class="subtitle">1000+ Kanale HD Shqip • Live Streaming</p>
+                </div>
+                
+                <div class="header-stats">
+                    <div class="stat">
+                        <i class="fas fa-satellite-dish"></i>
+                        <span id="total-stats">0</span>
+                        <small>Kanale</small>
+                    </div>
+                    <div class="stat">
+                        <i class="fas fa-check-circle"></i>
+                        <span id="working-stats">0</span>
+                        <small>Aktive</small>
+                    </div>
+                    <div class="stat">
+                        <i class="fas fa-users"></i>
+                        <span id="viewers-stats">1.2K</span>
+                        <small>Shikues</small>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Live Search -->
+            <div class="live-search">
+                <div class="search-container">
+                    <i class="fas fa-search"></i>
+                    <input type="text" 
+                           id="global-search" 
+                           placeholder="Kërko kanale, kategori, cilësi..."
+                           autocomplete="off">
+                    <div class="search-suggestions" id="search-suggestions"></div>
+                </div>
+                <div class="search-actions" id="search-actions">
+                    <button class="btn-clear-search" onclick="clearSearch()">
+                        <i class="fas fa-times"></i> Kthehu te të gjitha
+                    </button>
+                    <span id="search-count"></span>
+                </div>
+                
+                <div class="header-actions">
+                    <button class="btn-action" onclick="refreshChannels()">
+                        <i class="fas fa-sync-alt"></i> Rifresko
+                    </button>
+                    <button class="btn-action" onclick="showSettings()">
+                        <i class="fas fa-cog"></i> Cilësime
+                    </button>
+                    <button class="btn-action" onclick="exportChannels('json')">
+                        <i class="fas fa-file-export"></i> Eksporto
+                    </button>
+                    <button class="btn-action btn-premium" onclick="showPremiumModal()">
+                        <i class="fas fa-crown"></i> Premium
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Quick Categories -->
+        <section class="quick-categories">
+            <h2><i class="fas fa-bolt"></i> Kategoritë e Shpejta</h2>
+            <div class="categories-scroll" id="categories-scroll">
+                <!-- Categories will be loaded dynamically -->
+            </div>
+        </section>
+
+        <!-- Live TV Section -->
+        <section class="live-section">
+            <div class="section-header">
+                <h2><i class="fas fa-broadcast-tower"></i> TV Live</h2>
+                <div class="live-indicator">
+                    <span class="live-dot"></span>
+                    <span>Duke transmetuar</span>
+                </div>
+            </div>
+            
+            <div class="channels-carousel" id="live-carousel">
+                <!-- Live channels will be loaded here -->
+            </div>
+        </section>
+
+        <!-- All Channels Grid -->
+        <section class="channels-section">
+            <div class="section-header">
+                <h2><i class="fas fa-th-large"></i> Të gjitha Kanale</h2>
+                <div class="view-controls">
+                    <button class="view-btn active" data-view="grid" onclick="changeView('grid')">
+                        <i class="fas fa-th-large"></i>
+                    </button>
+                    <button class="view-btn" data-view="list" onclick="changeView('list')">
+                        <i class="fas fa-list"></i>
+                    </button>
+                    <button class="view-btn" data-view="compact" onclick="changeView('compact')">
+                        <i class="fas fa-grip-vertical"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Filters -->
+            <div class="advanced-filters">
+                <div class="filter-group">
+                    <select id="country-filter">
+                        <option value="">Të gjitha vendet</option>
+                        <!-- Options will be loaded from JSON -->
+                    </select>
+                    
+                    <select id="quality-filter">
+                        <option value="">Të gjitha cilësitë</option>
+                        <option value="SD">SD</option>
+                        <option value="HD">HD</option>
+                        <option value="FHD">Full HD</option>
+                        <option value="4K">4K</option>
+                    </select>
+                    
+                    <select id="category-filter">
+                        <option value="">Të gjitha kategoritë</option>
+                        <!-- Options will be loaded from JSON -->
+                    </select>
+                    
+                    <select id="sort-filter">
+                        <option value="name">Sipas emrit</option>
+                        <option value="quality">Cilësia</option>
+                        <option value="popular">Popullariteti</option>
+                        <option value="new">Më të rejat</option>
+                        <option value="working">Statusi</option>
+                    </select>
+                    
+                    <!-- Working filter will be added by JavaScript -->
+                </div>
+                
+                <div class="filter-actions">
+                    <button class="btn-filter" onclick="applyFilters()">
+                        <i class="fas fa-filter"></i> Filtro
+                    </button>
+                    <button class="btn-filter" onclick="resetFilters()">
+                        <i class="fas fa-redo"></i> Reset
+                    </button>
+                    <button class="btn-filter" onclick="testAllChannels()">
+                        <i class="fas fa-vial"></i> Testo
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Channels Container -->
+            <div class="channels-container" id="channels-container">
+                <!-- Channels will be loaded here -->
+            </div>
+            
+            <!-- Pagination -->
+            <div class="pagination" id="pagination">
+                <button class="page-btn" onclick="prevPage()">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="page-numbers" id="page-numbers"></div>
+                <button class="page-btn" onclick="nextPage()">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </section>
+
+        <!-- Premium Banner -->
+        <section class="premium-banner">
+            <div class="banner-content">
+                <h2><i class="fas fa-crown"></i> UPGRADE TO PREMIUM</h2>
+                <p>Merr akses të plotë në të gjitha kanalet HD pa reklama</p>
+                <div class="premium-features">
+                    <span><i class="fas fa-check"></i> 1000+ Kanale HD</span>
+                    <span><i class="fas fa-check"></i> Pa reklama</span>
+                    <span><i class="fas fa-check"></i> EPG Guide</span>
+                    <span><i class="fas fa-check"></i> Multi-screen</span>
+                    <span><i class="fas fa-check"></i> VOD (Filma/Seriale)</span>
+                    <span><i class="fas fa-check"></i> 24/7 Support</span>
+                </div>
+                <button class="btn-premium-large" onclick="showPremiumModal()">
+                    <i class="fas fa-bolt"></i> BËHU PREMIUM - 9.99€/muaj
+                </button>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="main-footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>SUPER WEB IPTV</h3>
+                    <p>Platforma më e mirë për shikimin e TV-së shqip në internet</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>LINKET E SHPEJTA</h3>
+                    <a href="#" onclick="showPlayer()">Player</a>
+                    <a href="#" onclick="downloadM3U()">Shkarko Playlist</a>
+                    <a href="#" onclick="showFavorites()">Favorites</a>
+                    <a href="#" onclick="showHistory()">Historia</a>
+                    <a href="#" onclick="showSettings()">Cilësime</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>MBËSHTETJE</h3>
+                    <a href="#" onclick="showFAQ()">FAQ</a>
+                    <a href="#" onclick="showTutorial()">Tutorial</a>
+                    <a href="#" onclick="showContact()">Kontakt</a>
+                    <a href="#" onclick="showReport()">Raporto Problem</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>LEGAL</h3>
+                    <a href="#" onclick="showTerms()">Kushtet e Përdorimit</a>
+                    <a href="#" onclick="showPrivacy()">Politika e Privatësisë</a>
+                    <p><i class="fas fa-exclamation-triangle"></i> Vetëm për qëllime edukative</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2024 SUPER WEB IPTV. Të gjitha të drejtat e rezervuara.</p>
+                <p>Ky është një projekt demo edukativ. Të gjitha markat tregtare u përkasin pronarëve të tyre.</p>
+                <p class="version">Version 3.0.0 | <span id="online-status"><i class="fas fa-circle"></i> Online</span></p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Modal for Premium -->
+    <div id="premium-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closePremiumModal()">&times;</span>
+            <h2><i class="fas fa-crown"></i> Zgjidhni Paketën Tuaj</h2>
+            <div class="pricing-plans">
+                <div class="plan">
+                    <h3>Mujore</h3>
+                    <div class="price">9.99€</div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> 1000+ Kanale HD</li>
+                        <li><i class="fas fa-check"></i> Pa reklama</li>
+                        <li><i class="fas fa-check"></i> EPG Guide 7 ditë</li>
+                        <li><i class="fas fa-check"></i> 1 pajisje</li>
+                    </ul>
+                    <button class="btn-select-plan" onclick="selectPlan('monthly')">Zgjidh</button>
+                </div>
+                <div class="plan recommended">
+                    <div class="badge">MË E MIRA</div>
+                    <h3>Vjetore</h3>
+                    <div class="price">99.99€</div>
+                    <div class="save">Kurseni 16%</div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> 1000+ Kanale HD</li>
+                        <li><i class="fas fa-check"></i> Pa reklama</li>
+                        <li><i class="fas fa-check"></i> EPG Guide 14 ditë</li>
+                        <li><i class="fas fa-check"></i> 3 pajisje</li>
+                        <li><i class="fas fa-check"></i> VOD Library</li>
+                    </ul>
+                    <button class="btn-select-plan" onclick="selectPlan('yearly')">Zgjidh</button>
+                </div>
+                <div class="plan">
+                    <h3>Jetësh</h3>
+                    <div class="price">299.99€</div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> 1000+ Kanale HD</li>
+                        <li><i class="fas fa-check"></i> Pa reklama</li>
+                        <li><i class="fas fa-check"></i> EPG Guide 30 ditë</li>
+                        <li><i class="fas fa-check"></i> 5 pajisje</li>
+                        <li><i class="fas fa-check"></i> VOD Library</li>
+                        <li><i class="fas fa-check"></i> Priority Support</li>
+                    </ul>
+                    <button class="btn-select-plan" onclick="selectPlan('lifetime')">Zgjidh</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Settings Modal -->
+    <div id="settings-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeSettingsModal()">&times;</span>
+            <h2><i class="fas fa-cog"></i> Cilësime</h2>
+            <div class="settings-options">
+                <div class="setting-item">
+                    <label for="auto-play">Auto-play</label>
+                    <input type="checkbox" id="auto-play" checked>
+                </div>
+                <div class="setting-item">
+                    <label for="quality-default">Cilësia default</label>
+                    <select id="quality-default">
+                        <option value="auto">Auto</option>
+                        <option value="SD">SD</option>
+                        <option value="HD" selected>HD</option>
+                        <option value="FHD">Full HD</option>
+                    </select>
+                </div>
+                <div class="setting-item">
+                    <label for="buffer-size">Madhësia e buffer-it</label>
+                    <select id="buffer-size">
+                        <option value="10">10 sekonda</option>
+                        <option value="20" selected>20 sekonda</option>
+                        <option value="30">30 sekonda</option>
+                        <option value="60">60 sekonda</option>
+                    </select>
+                </div>
+                <div class="setting-item">
+                    <button class="btn-save-settings" onclick="saveSettings()">
+                        <i class="fas fa-save"></i> Ruaj Cilësimet
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Player Modal -->
+    <div id="player-modal" class="modal player-modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closePlayerModal()">&times;</span>
+            <div class="player-container">
+                <video id="main-player" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto" width="100%" height="500"></video>
+            </div>
+            <div class="player-info">
+                <h3 id="player-title">Zgjidhni një kanal</h3>
+                <div class="player-actions">
+                    <button class="btn-player-action" onclick="addToFavorites()">
+                        <i class="fas fa-heart"></i> Favorite
+                    </button>
+                    <button class="btn-player-action" onclick="shareChannel()">
+                        <i class="fas fa-share"></i> Share
+                    </button>
+                    <button class="btn-player-action" onclick="reportChannel()">
+                        <i class="fas fa-flag"></i> Raporto
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notification Container -->
+    <div id="notification-container"></div>
+
+    <!-- Scripts -->
+    <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@1.4.10/dist/hls.min.js"></script>
+    <script src="js/app.js"></script>
+    
+    <script>
+        // Initialize loading
+        document.addEventListener('DOMContentLoaded', function() {
+            // Simulate loading progress
+            let progress = 0;
+            const interval = setInterval(() => {
+                progress += 10;
+                const progressBar = document.getElementById('loading-progress');
+                if (progressBar) {
+                    progressBar.style.width = progress + '%';
+                }
+                
+                if (progress >= 100) {
+                    clearInterval(interval);
+                    setTimeout(() => {
+                        const loadingScreen = document.getElementById('loading-screen');
+                        if (loadingScreen) {
+                            loadingScreen.style.opacity = '0';
+                            setTimeout(() => {
+                                loadingScreen.style.display = 'none';
+                                // Initialize app
+                                if (typeof initApp === 'function') {
+                                    initApp();
+                                }
+                            }, 500);
+                        }
+                    }, 500);
+                }
+            }, 100);
+        });
+        
+        // Quick actions functions
+        function toggleNightMode() {
+            document.body.classList.toggle('night-mode');
+            localStorage.setItem('nightMode', document.body.classList.contains('night-mode'));
+            showNotification('Night mode ' + (document.body.classList.contains('night-mode') ? 'activated' : 'deactivated'));
+        }
+        
+        function showPlayer() {
+            const modal = document.getElementById('player-modal');
+            if (modal) modal.classList.add('active');
+        }
+        
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+        
+        function showPremiumModal() {
+            const modal = document.getElementById('premium-modal');
+            if (modal) modal.classList.add('active');
+        }
+        
+        function closePremiumModal() {
+            const modal = document.getElementById('premium-modal');
+            if (modal) modal.classList.remove('active');
+        }
+        
+        function showSettings() {
+            const modal = document.getElementById('settings-modal');
+            if (modal) modal.classList.add('active');
+        }
+        
+        function closeSettingsModal() {
+            const modal = document.getElementById('settings-modal');
+            if (modal) modal.classList.remove('active');
+        }
+        
+        function closePlayerModal() {
+            const modal = document.getElementById('player-modal');
+            if (modal) modal.classList.remove('active');
+            const player = videojs.getPlayer('main-player');
+            if (player) player.pause();
+        }
+        
+        // Demo functions
+        function showFAQ() {
+            showNotification('FAQ është në zhvillim', 'info');
+        }
+        
+        function showTutorial() {
+            showNotification('Tutorial është në zhvillim', 'info');
+        }
+        
+        function showContact() {
+            showNotification('Kontakt: info@superwebiptv.com', 'info');
+        }
+        
+        function showReport() {
+            showNotification('Forma për raportim është në zhvillim', 'info');
+        }
+        
+        function showTerms() {
+            showNotification('Kushtet e Përdorimit janë në zhvillim', 'info');
+        }
+        
+        function showPrivacy() {
+            showNotification('Politika e Privatësisë është në zhvillim', 'info');
+        }
+        
+        function showFavorites() {
+            showNotification('Shfaq favorite', 'info');
+        }
+        
+        function showHistory() {
+            showNotification('Shfaq historinë', 'info');
+        }
+        
+        function selectPlan(plan) {
+            showNotification(`Paketa ${plan} u zgjodh. Funksionaliteti premium është në zhvillim.`, 'success');
+            closePremiumModal();
+        }
+        
+        function addToFavorites() {
+            showNotification('Shtuar në favorite', 'success');
+        }
+        
+        function shareChannel() {
+            if (navigator.share) {
+                navigator.share({
+                    title: 'SUPER WEB IPTV',
+                    text: 'Shiko TV në internet falas',
+                    url: window.location.href
+                });
+            } else {
+                showNotification('Link u kopjua në clipboard', 'success');
+            }
+        }
+        
+        function reportChannel() {
+            showNotification('Kanali u raportua me sukses', 'success');
+        }
+        
+        // Initialize night mode from localStorage
+        if (localStorage.getItem('nightMode') === 'true') {
+            document.body.classList.add('night-mode');
+        }
+        
+        // Handle service worker for PWA
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('sw.js')
+                    .then(() => console.log('Service Worker registered'))
+                    .catch(err => console.log('Service Worker registration failed:', err));
+            });
+        }
+    </script>
+</body>
+</html>
